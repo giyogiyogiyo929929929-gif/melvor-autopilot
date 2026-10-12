@@ -1,0 +1,11 @@
+{
+  "name": "melvor-autopilot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Doc-driven, fail-closed Melvor Idle autonomous progression mod prototype",
+  "scripts": {
+    "check": "node --check setup.mjs && node --check src/prerequisites.mjs && node --check src/planner.mjs && node --check src/resources.mjs && node --check src/executor.mjs && node --check src/snapshot-validation.mjs && node --check src/monitor.mjs && node --check src/quantities.mjs && node --check src/quantified-planner.mjs && node --check src/production-catalog.mjs && node --check src/recipe-effects.mjs && node --check src/candidate-window.mjs && node --check src/local-graph.mjs && node --check src/local-catalog.mjs && node --check src/controller-record.mjs && node --check src/controller.mjs && node --check src/combat-observation.mjs && node --check src/combat-risk.mjs && node --check src/completion-audit.mjs && node --check src/completion-report.mjs && node --check src/farming-observation.mjs && node --check src/shop-observation.mjs && node --check src/shop-prerequisites.mjs && node --check src/graph-components.mjs && node --check src/production-prerequisites.mjs && node --check src/observation-frame.mjs && node --check src/completion-targets.mjs && node --check src/resource-targets.mjs && node --check src/action-selection.mjs && node --check src/noncombat-selection.mjs && node --check src/selection-variant.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

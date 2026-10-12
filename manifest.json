@@ -1,0 +1,4 @@
+{
+  "namespace": "autopilot",
+  "setup": "setup.mjs"
+}
